@@ -143,15 +143,68 @@ body{
 .proyecto img {
   width: 100%;
   border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.proyecto img:hover {
+  transform: scale(1.02);
 }
 
 .proyecto h3 {
   font-family: var(--fuente-krona);
   margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 .proyecto p {
   font-family: var(--fuente-montserrat);
+}
+
+/* NUEVOS ESTILOS PARA LAS MEJORAS */
+.proyecto__descripcion {
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-bottom: 15px;
+  color: var(--color-secundaria);
+}
+
+.proyecto__tecnologias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.tech-tag {
+  background: rgba(242, 239, 231, 0.2);
+  border: 1px solid var(--color-terciaria);
+  color: var(--color-secundaria);
+  padding: 4px 10px;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-family: var(--fuente-montserrat);
+}
+
+.proyecto__caracteristicas {
+  margin-bottom: 15px;
+}
+
+.caracteristica {
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+  color: var(--color-secundaria);
+  opacity: 0.9;
+}
+
+.demo-hint {
+  font-style: italic;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-bottom: 15px;
+  color: var(--color-terciaria);
+  font-weight: 600;
 }
 
 .boton__repositorio {
@@ -216,6 +269,14 @@ body{
 
     .presentacion__contenido {
         align-items: center;
+    }
+    
+    .proyecto__tecnologias {
+        justify-content: center;
+    }
+    
+    .tech-tag {
+        font-size: 0.75rem;
     }
 }
 
@@ -300,5 +361,12 @@ body{
     font-size: 1.2rem;
     padding: 16px;
   }
+  
+  .proyecto__descripcion {
+    font-size: 0.9rem;
+  }
+  
+  .caracteristica {
+    font-size: 0.8rem;
+  }
 }
-
