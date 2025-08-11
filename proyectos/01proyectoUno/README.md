@@ -1,17 +1,24 @@
-# Challenge de amigo secreto 
+# Challenge: Juego de Amigo Secreto
 
-# Descripción
+## Descripción
 
-Este challenge de m¿amigo secreto, busca poner en practica conocimientos del Lenguaje de programacion JavaScript. Aplicados a un juego llamado amigo secreto con ciertas funcionalidades. 
+Este proyecto es un pequeño juego de **Amigo Secreto** desarrollado en JavaScript.  
+El objetivo es practicar conceptos básicos de programación aplicados a la creación de un juego con funcionalidades específicas.
 
-# Como funciona 
+---
 
-1. Este es un pequeño proyecto que basicamente sortea un nombre luego de haber introducido cierta
-cantidad de nombres, para amigo secreto. 
+## ¿Cómo funciona?
 
-2. Con el boton añadir, vamos agregando nombres 
+1. Se ingresan los nombres de los participantes usando el botón **Añadir**.  
+2. No se permite agregar nombres duplicados; si intentas añadir un nombre ya existente, aparecerá un mensaje de advertencia.  
+3. Una vez que hayas añadido todos los nombres, presiona el botón **Sortear** para elegir aleatoriamente un nombre ganador.  
+4. El juego mostrará el nombre seleccionado, que corresponde al amigo secreto.
 
-3. El boton sortear finalmente realiza el sorteo y arroja uno de los nombres ingresados. 
+---
 
-4. El codigo esta diseñado para que no se pueda agregar el mismo valor, por lo que si agregar el mismo valor dos veces, la segunda vez te arrojara un mensaje. 
+## Características
+
+- Previene la repetición de nombres.  
+- Mensajes claros para informar al usuario.  
+- Interfaz sencilla e intuitiva.
 
